@@ -42,6 +42,7 @@ replaceRare k a newMap =
 emCount :: [String] -> Map String Int
 emCount = L.foldl' condInsert empty
 
+
 condInsert :: Map String Int -> String -> Map String Int 
 condInsert m x = -- x`seq` m `seq`
                  if   x == ""
