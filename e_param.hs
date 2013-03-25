@@ -1,10 +1,16 @@
+{-
+   Sortie des paramètres d'émission
+   word, tag => x ;  x = c(word, tag) / c(tag) 
+
+   J'ai en entrée 123 WORDTAG I-GENE toto
+
+-}
 -- import Data.Char
 import Prelude as P
 import Data.Map as M
 import Data.List as L
 import Data.Char as C
-
-
+import Text.Printf as T
 
 main = do
     x <- getContents
@@ -38,7 +44,11 @@ emFreqCounter :: EmCount -> [String] -> EmCount
 emFreqCounter emCnt [n,_, cat,w] = M.insert (w, cat) (read n::Int) emCnt
 emFreqCounter emCnt _            = emCnt
 
+showT :: (String, String) -> String
+showT (a,b) =  a ++ " " ++ b
+
 showKV k a result = result
-             ++ (show a) ++ " " 
-             ++ (show k) ++ "\n"
-showMap m = foldrWithKey showKV "" m 
+             ++ (showT k) ++ " " 
+             ++ (printf "%.6f" a) ++ "\n"
+showMap m = foldrWithKey showKV "" m
+

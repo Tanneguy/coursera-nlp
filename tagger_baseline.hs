@@ -1,44 +1,74 @@
+{-
+  Coursera-nlp-1 1st part
+  Baseline tagger : produit le tag le + frequent (sans contexte)
+
+  Usage : tagger_baseline.exe   <name>.emission   <name>.dev  
+-}
+
+
+
+
 -- import Data.Char
 import Prelude as P
 import Data.Map as M
 import Data.List as L
 import Data.Char as C
-
+import System.Environment as E
+import System.IO as IO
+import Text.Printf as T
 
 
 main = do
-    x <- getContents
-    putStr $ process x
+    args <- getArgs
+    emitText <- readFile (args !! 0)
+    dataText <- readFile (args !! 1)
+    putStr $ process emitText dataText 
 
 
-process x = let x' =  (L.map words . L.filter (/= "") . lines) x
-            in let tagF = L.foldl' tagFreqCounter empty x'
-                   emF  = L.foldl' emFreqCounter empty x'
-               in let (_, eParam) = M.foldrWithKey emRatio (tagF, empty) emF
-                  in showMap eParam
+{-
+  la map du fichier X.emission est [Word, Tag, Emission]
+  je veux une Map Word Map Emission Tag 
 
-type EmFreq = Map (String, String) Double 
-emRatio ::  (String, String) -> Int -> (TagFreq, EmFreq) -> (TagFreq, EmFreq)
-emRatio (w, cat) n (tagF, m) = 
-    let y = M.lookup cat tagF
-    in if   y == Nothing 
-       then (tagF, m) 
-       else let (Just y') = y 
-            in let m' = M.insert (w, cat) (fromIntegral n / fromIntegral y') m
-               in (tagF, m')
+  le fichier a analyser est de type [Word]
+  pour chaque Word je choisis le Tag qui a la plus haute Emission
+  et je ressors [Word, Tag]
+
+-}
+
+process emitText dataText = 
+  let emitList = (L.map words . L.filter (/= "") . lines) emitText  -- texte sous forme de liste
+      dataList = lines dataText                                     -- texte sous forme de liste non filtrée 
+      emitMap = L.foldl' highEmitCounter empty emitList             -- construit la Map de tagging max
+  in let lResult = L.map (tagLine emitMap) dataList                -- applique le tagging
+--  in unlines lResult
+--  in showMap emitMap
+
+type EmitTag = Map String (Float, String)
+highEmitCounter :: EmitTag -> [String] -> EmitTag
+highEmitCounter emitMap [word, tag, float] = 
+  let floatNum = read float :: Float
+      tagMap = (floatNum, tag)
+      x = M.lookup word emitMap         -- lookup retourne Maybe (Float, Tag)
+  in if x == Nothing
+     then M.insert word tagMap emitMap
+     else let (Just x') = x               -- type x' = (Float, Tag)
+          in  if   fst x' > floatNum 
+              then emitMap
+              else M.update (\x -> Just tagMap) word emitMap
 
 
-type TagFreq = Map String Int
-tagFreqCounter :: TagFreq -> [String] -> TagFreq
-tagFreqCounter tagFreq [n,_,cat,w] = M.insertWith (+) cat (read n ::Int) tagFreq
-tagFreqCounter tagFreq _           = tagFreq
+  
+tagLine :: EmitTag -> String -> String
+tagLine _ "" = ""
+tagLine mEmit line  = 
+  let x = M.lookup line mEmit 
+      y = if x == Nothing 
+          then y =  M.lookup "_RARE_" mEmit 
+      -- then error "line not found ! -->> \n["++line++"]\n<<--"
+      else let (Just x') = x
+           in  line++" "++(snd x') 
+ 
 
-type EmCount = Map (String, String) Int 
-emFreqCounter :: EmCount -> [String] -> EmCount
-emFreqCounter emCnt [n,_, cat,w] = M.insert (w, cat) (read n::Int) emCnt
-emFreqCounter emCnt _            = emCnt
-
-showKV k a result = result
-             ++ (show a) ++ " " 
-             ++ (show k) ++ "\n"
-showMap m = foldrWithKey showKV "" m 
+showKV :: String -> (Float,String) -> String -> String
+showKV k (f, t) result = result ++ k ++ ": \t"++t++"\t"++show(f)++ "\n" 
+showMap m = M.foldrWithKey showKV "" m  
