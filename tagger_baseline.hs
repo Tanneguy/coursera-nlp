@@ -5,12 +5,10 @@
   Usage : tagger_baseline.exe   <name>.emission   <name>.dev  
 -}
 
-
-
-
 -- import Data.Char
 import Prelude as P
 import Data.Map as M
+import Data.Maybe as B
 import Data.List as L
 import Data.Char as C
 import System.Environment as E
@@ -40,7 +38,7 @@ process emitText dataText =
       dataList = lines dataText                                     -- texte sous forme de liste non filtrée 
       emitMap = L.foldl' highEmitCounter empty emitList             -- construit la Map de tagging max
   in let lResult = L.map (tagLine emitMap) dataList                -- applique le tagging
---  in unlines lResult
+     in unlines lResult
 --  in showMap emitMap
 
 type EmitTag = Map String (Float, String)
@@ -56,18 +54,15 @@ highEmitCounter emitMap [word, tag, float] =
               then emitMap
               else M.update (\x -> Just tagMap) word emitMap
 
-
-  
 tagLine :: EmitTag -> String -> String
 tagLine _ "" = ""
 tagLine mEmit line  = 
-  let x = M.lookup line mEmit 
-      y = if x == Nothing 
-          then y =  M.lookup "_RARE_" mEmit 
-      -- then error "line not found ! -->> \n["++line++"]\n<<--"
-      else let (Just x') = x
-           in  line++" "++(snd x') 
- 
+  let z = M.lookup "_RARE_" mEmit
+      x = M.lookup line mEmit 
+  in  let y = if x == Nothing 
+              then fromJust z
+              else fromJust x
+      in  line++" "++(snd y) 
 
 showKV :: String -> (Float,String) -> String -> String
 showKV k (f, t) result = result ++ k ++ ": \t"++t++"\t"++show(f)++ "\n" 
