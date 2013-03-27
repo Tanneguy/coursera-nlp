@@ -14,6 +14,9 @@
     - les unigrames     134 1-GRAM I-GENE
     - les bigrames      134 2-GRAM O O
     - les trigrammes    134 3-GRAM O I-GENE O
+
+    Usage: cat datafile.train | count_ngram.exe > datafile.train.counts
+    
 -}
 
 -- import Data.Char
@@ -52,7 +55,7 @@ memCount (n, m, w) x =
             m1 = condInsert x1 m
             m2 = condInsert x2 m1
             m3 = condInsert x3 m2
-         in (n, m3, y)      
+         in (n, m3, y)
 
 condInsert :: [String] -> Map [String] Int -> Map [String] Int 
 condInsert x m =  

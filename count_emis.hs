@@ -7,13 +7,9 @@
 -}
 
 {-
-
-   Part 0
-   Fonctions de comptage pour
-    - les émissions     134 WORDTAG I-GENE consensus 
-    - les unigrames     134 1-GRAM I-GENE
-    - les bigrames      134 2-GRAM O O
-    - les trigrammes    134 3-GRAM O I-GENE O
+  Part 0
+  Comptage des fréquences d'émission
+  Usage: cat datafile.train | count_emis.exe > datafile.train.rare
 -}
 
 -- import Data.Char
@@ -36,7 +32,8 @@ process x =
 replaceRare :: String -> Int -> Map String Int -> Map String Int
 replaceRare k a newMap = 
     if a < 5 
-    then M.insertWith (+) "_RARE_" a newMap
+    then let cat = (last . words) k
+         in  M.insertWith (+) ("_RARE_ "++cat) a newMap
     else M.insert k a newMap
 
 emCount :: [String] -> Map String Int

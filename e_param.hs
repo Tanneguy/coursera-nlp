@@ -3,6 +3,7 @@
    word, tag => x ;  x = c(word, tag) / c(tag) 
 
    J'ai en entrée 123 WORDTAG I-GENE toto
+   Usage: cat datafile.train.rare | e_params.exe > datafile.train.rare.e
 
 -}
 -- import Data.Char
