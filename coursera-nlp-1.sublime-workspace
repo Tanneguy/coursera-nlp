@@ -87,7 +87,7 @@
 			"file": "count_ngram.hs",
 			"settings":
 			{
-				"buffer_size": 1955,
+				"buffer_size": 1928,
 				"line_ending": "Windows"
 			}
 		},
@@ -164,6 +164,10 @@
 	},
 	"file_history":
 	[
+		"/E/Drive/Google Drive/Ops/clefs-BizSpark",
+		"/E/Code/coursera-nlp/python/count_freqs.py",
+		"/E/Code/coursera-nlp/python/eval_gene_tagger.py",
+		"/E/Code/coursera-nlp/python/submit.py",
 		"/E/Code/coursera-nlp/data/gene.train.rare",
 		"/E/Code/coursera-nlp/data/gene.train.emission",
 		"/E/Code/coursera-nlp/data/gene.train.counts",
@@ -259,6 +263,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			";\\n",
 			"select",
 			"layout",
 			"soft",
@@ -294,6 +299,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			";",
 			"Titi N\\\\n",
 			"Toto 0\\\\n",
 			"\\\\n\\\\n",
@@ -316,7 +322,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -324,15 +330,15 @@
 					"file": "count_ngram.hs",
 					"settings":
 					{
-						"buffer_size": 1955,
+						"buffer_size": 1928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								404,
-								404
+								835,
+								835
 							]
 						],
 						"settings":
@@ -342,7 +348,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 499.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -359,8 +365,8 @@
 						"selection":
 						[
 							[
-								217,
-								217
+								241,
+								241
 							]
 						],
 						"settings":
@@ -387,8 +393,8 @@
 						"selection":
 						[
 							[
-								206,
-								206
+								267,
+								267
 							]
 						],
 						"settings":
@@ -415,8 +421,8 @@
 						"selection":
 						[
 							[
-								1215,
-								1215
+								1580,
+								1580
 							]
 						],
 						"settings":
@@ -426,16 +432,11 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 513.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -456,18 +457,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.752100840336,
 			1.0
 		],
 		"rows":
