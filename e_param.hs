@@ -3,7 +3,7 @@
    word, tag => x ;  x = c(word, tag) / c(tag) 
 
    J'ai en entrée 123 WORDTAG I-GENE toto
-   Usage: cat datafile.train.rare | e_params.exe > datafile.train.rare.e
+   Usage: cat train.rare | e_params.exe >train.rare.eparam
 
 -}
 -- import Data.Char
@@ -50,6 +50,6 @@ showT (a,b) =  a ++ " " ++ b
 
 showKV k a result = result
              ++ (showT k) ++ " " 
-             ++ (printf "%.6f" a) ++ "\n"
+             ++ (printf "%.10f" a) ++ "\n"
 showMap m = foldrWithKey showKV "" m
 
