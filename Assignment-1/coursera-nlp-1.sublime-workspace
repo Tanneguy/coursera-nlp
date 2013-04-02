@@ -155,6 +155,25 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "",
+			"file": "/E/Download/entities/entities",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Download/entities/entities.utf16",
+			"settings":
+			{
+				"buffer_size": 14719137,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"command_palette":
@@ -204,6 +223,10 @@
 	},
 	"file_history":
 	[
+		"/E/Download/entities/entities",
+		"/E/Download/auxiliary",
+		"/E/Download/output",
+		"/E/Download/BulletinBoursier/ALeCentreVille.grf",
 		"/E/Code/coursera-nlp/q_param.hs",
 		"/E/Code/coursera-nlp/rarify.hs",
 		"/E/Code/coursera-nlp/data/rare.py.ngram.q",
@@ -391,8 +414,61 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/E/Download/entities/entities",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/Download/entities/entities.utf16",
+					"settings":
+					{
+						"buffer_size": 14719137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								945
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1539.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
