@@ -8,3 +8,7 @@ moyenne xs =
 	n `seq` 
 	let (n, s) = foldl' (0, 0) xs
 	in s/n
+
+
+
+

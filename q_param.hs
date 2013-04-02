@@ -44,7 +44,7 @@ ngramCounter nCount (n:_:grams) = M.insert grams (read n :: Int) nCount
 
 
 showT :: (String, [String]) -> String
-showT (a,b) =  a ++ " " ++ (concat . intersperse " ") b
+showT (a,b) =   (concat . intersperse " ") b ++  " " ++ a
 
 showKV k a result = result
              ++ (showT k) ++ " " 

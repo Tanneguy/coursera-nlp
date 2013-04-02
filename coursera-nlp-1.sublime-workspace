@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"sh",
+				"showKV"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"q_",
+				"q_param"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"let",
+				"let"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"w",
+				"w"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"C",
+				"Ctx"
+			],
+			[
+				"ctx",
+				"ctx"
+			],
+			[
+				"q",
+				"q"
+			],
+			[
+				"E",
+				"EFreq"
+			],
+			[
+				"cont",
+				"cont"
+			],
+			[
+				"Tag",
+				"Tag"
+			],
+			[
+				"s",
+				"sentence"
+			],
+			[
+				"M",
+				"Mot"
+			],
+			[
+				"T",
+				"Tag"
+			],
+			[
+				"Wo",
+				"WordCat"
+			],
+			[
+				"pikuv",
+				"lstPikuv"
+			],
+			[
+				"fold",
+				"foldrWithKey"
+			],
+			[
+				"ng",
+				"ngramCnt"
+			],
+			[
+				"show",
+				"show"
+			],
+			[
 				"dat",
 				"dataText"
 			],
@@ -28,20 +116,8 @@
 				"highEmitCounter"
 			],
 			[
-				"w",
-				"w"
-			],
-			[
 				"tag",
 				"tagFreqCounter"
-			],
-			[
-				"show",
-				"showKV"
-			],
-			[
-				"s",
-				"s"
 			],
 			[
 				"n",
@@ -50,10 +126,6 @@
 			[
 				"x",
 				"x"
-			],
-			[
-				"let",
-				"let"
 			],
 			[
 				"a",
@@ -83,43 +155,11 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "count_ngram.hs",
-			"settings":
-			{
-				"buffer_size": 1928,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "count_emis.hs",
-			"settings":
-			{
-				"buffer_size": 1271,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "e_param.hs",
-			"settings":
-			{
-				"buffer_size": 1679,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tagger_baseline.hs",
-			"settings":
-			{
-				"buffer_size": 2212,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 196.0,
 		"selected_items":
 		[
 			[
@@ -164,27 +204,43 @@
 	},
 	"file_history":
 	[
+		"/E/Code/coursera-nlp/q_param.hs",
+		"/E/Code/coursera-nlp/rarify.hs",
+		"/E/Code/coursera-nlp/data/rare.py.ngram.q",
+		"/E/Code/coursera-nlp/tagger_viterbi_4.hs",
+		"/E/Code/coursera-nlp/data/rare.py.wordtag.e",
+		"/E/Code/coursera-nlp/e_param.hs",
+		"/E/Code/coursera-nlp/data/rare.py.ngrams",
+		"/E/Code/coursera-nlp/tagger_baseline.hs",
+		"/E/Code/coursera-nlp/tagger_viterbi_3.hs",
+		"/E/Code/coursera-nlp/tagger_viterbi.hs",
+		"/E/Code/coursera-nlp/t3.1.dev.out",
+		"/E/Code/coursera-nlp/t3.2.dev.out",
+		"/E/Code/coursera-nlp/avg.hs",
+		"/E/Code/coursera-nlp/tagger_viterbi_2.hs",
+		"/E/Code/coursera-nlp/data/rare.py.wordtag",
+		"/E/Code/coursera-nlp/    Expected type",
+		"/E/Code/coursera-nlp/input/gene.key",
+		"/E/Code/coursera-nlp/data/gene.dev.p1.out",
+		"/E/Code/coursera-nlp/data/train.rare",
+		"/E/Code/coursera-nlp/count_ngram.hs",
+		"/E/Code/coursera-nlp/data/gene.train.rare",
+		"/E/Code/coursera-nlp/    In the expression",
 		"/E/Drive/Google Drive/Ops/clefs-BizSpark",
 		"/E/Code/coursera-nlp/python/count_freqs.py",
 		"/E/Code/coursera-nlp/python/eval_gene_tagger.py",
 		"/E/Code/coursera-nlp/python/submit.py",
-		"/E/Code/coursera-nlp/data/gene.train.rare",
 		"/E/Code/coursera-nlp/data/gene.train.emission",
 		"/E/Code/coursera-nlp/data/gene.train.counts",
 		"/E/Code/coursera-nlp/data/gene.dev.counts",
 		"/E/Code/coursera-nlp/data/gene.dev.rare",
 		"/E/Code/coursera-nlp/data/gene.dev.freq",
 		"/E/Code/coursera-nlp/input/gene.dev",
-		"/E/Code/coursera-nlp/data/gene.dev.p1.out",
-		"/E/Code/coursera-nlp/count_ngram.hs",
 		"/E/Code/coursera-nlp/count_emis.hs",
-		"/E/Code/coursera-nlp/tagger_baseline.hs",
-		"/E/Code/coursera-nlp/e_param.hs",
 		"/E/Code/coursera-nlp/nlp-1-0-counts.hs",
 		"/E/Code/coursera-nlp/coursera-nlp-1.sublime-project",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/E/Code/coursera-nlp/    Expected type",
 		"/E/Code/coursera-nlp/    In a stmt of a 'do' block",
 		"/E/Code/coursera-nlp/    Not in scope",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/module.sublime-snippet",
@@ -263,6 +319,19 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"trace",
+			"^is I",
+			"qParamFile",
+			"eParamFile",
+			"v",
+			"3",
+			"2",
+			"STOP",
+			"putStrLn \"Hello World\"",
+			"highestW",
+			"x3",
+			"RAREoct",
+			"\\n\\n\\n",
 			";\\n",
 			"select",
 			"layout",
@@ -322,121 +391,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "count_ngram.hs",
-					"settings":
-					{
-						"buffer_size": 1928,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								835,
-								835
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 499.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "count_emis.hs",
-					"settings":
-					{
-						"buffer_size": 1271,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "e_param.hs",
-					"settings":
-					{
-						"buffer_size": 1679,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								267,
-								267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "tagger_baseline.hs",
-					"settings":
-					{
-						"buffer_size": 2212,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1580,
-								1580
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -473,7 +429,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 188.0
+		"height": 154.0
 	},
 	"output.git":
 	{

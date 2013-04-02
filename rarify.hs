@@ -38,9 +38,16 @@ replaceRare m textLine =
         txtWord  = head listLine
         txtCat   = last listLine
     in if (member textLine m) 
-       then "_RARE_ " ++ txtCat
+       then (rareType txtWord) ++ " " ++ txtCat
        else textLine
 
+rareType :: String -> String
+rareType word =
+  let digits = ['0'..'9']
+  in  if length (intersect digits word) > 0    then "_NUMERIC_"
+      else if L.map toUpper word == word       then "_ALLCAPS_"
+      else if toUpper (last word) == last word then "_LASTCAP_"
+      else "_RARE_"
 
 emCount :: [String] -> Map String Int
 emCount = L.foldl' condInsert empty
