@@ -155,32 +155,17 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "",
-			"file": "/E/Download/entities/entities",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Download/entities/entities.utf16",
-			"settings":
-			{
-				"buffer_size": 14719137,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 219.0,
 		"selected_items":
 		[
+			[
+				"inst	",
+				"Package Control: Install Package"
+			],
 			[
 				"git",
 				"Git: Commit"
@@ -223,7 +208,15 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/E/Code/coursera-nlp/coursera-nlp-1.sublime-project",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/Code/coursera-nlp/Assignment-1/tagger_baseline.hs",
+		"/E/Download/entities/entities.utf8",
+		"/E/Code/JRC-Names/jrc2dic.hs",
 		"/E/Download/entities/entities",
+		"/E/Download/entities/entities.utf16",
 		"/E/Download/auxiliary",
 		"/E/Download/output",
 		"/E/Download/BulletinBoursier/ALeCentreVille.grf",
@@ -261,9 +254,6 @@
 		"/E/Code/coursera-nlp/input/gene.dev",
 		"/E/Code/coursera-nlp/count_emis.hs",
 		"/E/Code/coursera-nlp/nlp-1-0-counts.hs",
-		"/E/Code/coursera-nlp/coursera-nlp-1.sublime-project",
-		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/E/Code/coursera-nlp/    In a stmt of a 'do' block",
 		"/E/Code/coursera-nlp/    Not in scope",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/module.sublime-snippet",
@@ -273,7 +263,6 @@
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Case.sublime-snippet",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
-		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Edit History/Edit History.sublime-settings",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Edit History.sublime-settings",
 		"/E/Dropbox/Job/Invoxis/Coursera/count_ngram.hs",
@@ -342,6 +331,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"	O	",
+			"\"",
+			"font",
 			"trace",
 			"^is I",
 			"qParamFile",
@@ -388,7 +380,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			";",
@@ -414,61 +406,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/E/Download/entities/entities",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 114.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/E/Download/entities/entities.utf16",
-					"settings":
-					{
-						"buffer_size": 14719137,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								940,
-								945
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1539.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

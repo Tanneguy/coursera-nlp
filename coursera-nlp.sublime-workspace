@@ -1,0 +1,532 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sh",
+				"showKV"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"q_",
+				"q_param"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"let",
+				"let"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"w",
+				"w"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"C",
+				"Ctx"
+			],
+			[
+				"ctx",
+				"ctx"
+			],
+			[
+				"q",
+				"q"
+			],
+			[
+				"E",
+				"EFreq"
+			],
+			[
+				"cont",
+				"cont"
+			],
+			[
+				"Tag",
+				"Tag"
+			],
+			[
+				"s",
+				"sentence"
+			],
+			[
+				"M",
+				"Mot"
+			],
+			[
+				"T",
+				"Tag"
+			],
+			[
+				"Wo",
+				"WordCat"
+			],
+			[
+				"pikuv",
+				"lstPikuv"
+			],
+			[
+				"fold",
+				"foldrWithKey"
+			],
+			[
+				"ng",
+				"ngramCnt"
+			],
+			[
+				"show",
+				"show"
+			],
+			[
+				"dat",
+				"dataText"
+			],
+			[
+				"da",
+				"dataFile"
+			],
+			[
+				"m",
+				"main	Main"
+			],
+			[
+				"in",
+				"instance	Instance"
+			],
+			[
+				"highR",
+				"highEmitCounter"
+			],
+			[
+				"highEmit",
+				"highEmitCounter"
+			],
+			[
+				"tag",
+				"tagFreqCounter"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"Map",
+				"Map1Reg"
+			],
+			[
+				"unigram",
+				"unigram-count"
+			],
+			[
+				"un",
+				"unigram-count"
+			],
+			[
+				"emiss",
+				"emission-counts"
+			],
+			[
+				"pi",
+				"pi"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "coursera-nlp.sublime-project",
+			"settings":
+			{
+				"buffer_size": 210,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst	",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Code/coursera-nlp/coursera-nlp.sublime-project",
+		"/E/Code/coursera-nlp/Assignment-1/haskell/q_param.hs",
+		"/E/Code/coursera-nlp/Assignment-1/haskell/rarify.hs",
+		"/E/Code/coursera-nlp/Assignment-1/haskell/tagger_viterbi_3.hs",
+		"/E/Code/coursera-nlp/Assignment-1/data/rare2.py.ngrams",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/Code/coursera-nlp/Assignment-1/tagger_baseline.hs",
+		"/E/Download/entities/entities.utf8",
+		"/E/Code/JRC-Names/jrc2dic.hs",
+		"/E/Download/entities/entities",
+		"/E/Download/entities/entities.utf16",
+		"/E/Download/auxiliary",
+		"/E/Download/output",
+		"/E/Download/BulletinBoursier/ALeCentreVille.grf",
+		"/E/Code/coursera-nlp/q_param.hs",
+		"/E/Code/coursera-nlp/rarify.hs",
+		"/E/Code/coursera-nlp/data/rare.py.ngram.q",
+		"/E/Code/coursera-nlp/tagger_viterbi_4.hs",
+		"/E/Code/coursera-nlp/data/rare.py.wordtag.e",
+		"/E/Code/coursera-nlp/e_param.hs",
+		"/E/Code/coursera-nlp/data/rare.py.ngrams",
+		"/E/Code/coursera-nlp/tagger_baseline.hs",
+		"/E/Code/coursera-nlp/tagger_viterbi_3.hs",
+		"/E/Code/coursera-nlp/tagger_viterbi.hs",
+		"/E/Code/coursera-nlp/t3.1.dev.out",
+		"/E/Code/coursera-nlp/t3.2.dev.out",
+		"/E/Code/coursera-nlp/avg.hs",
+		"/E/Code/coursera-nlp/tagger_viterbi_2.hs",
+		"/E/Code/coursera-nlp/data/rare.py.wordtag",
+		"/E/Code/coursera-nlp/    Expected type",
+		"/E/Code/coursera-nlp/input/gene.key",
+		"/E/Code/coursera-nlp/data/gene.dev.p1.out",
+		"/E/Code/coursera-nlp/data/train.rare",
+		"/E/Code/coursera-nlp/count_ngram.hs",
+		"/E/Code/coursera-nlp/data/gene.train.rare",
+		"/E/Code/coursera-nlp/    In the expression",
+		"/E/Drive/Google Drive/Ops/clefs-BizSpark",
+		"/E/Code/coursera-nlp/python/count_freqs.py",
+		"/E/Code/coursera-nlp/python/eval_gene_tagger.py",
+		"/E/Code/coursera-nlp/python/submit.py",
+		"/E/Code/coursera-nlp/data/gene.train.emission",
+		"/E/Code/coursera-nlp/data/gene.train.counts",
+		"/E/Code/coursera-nlp/data/gene.dev.counts",
+		"/E/Code/coursera-nlp/data/gene.dev.rare",
+		"/E/Code/coursera-nlp/data/gene.dev.freq",
+		"/E/Code/coursera-nlp/input/gene.dev",
+		"/E/Code/coursera-nlp/count_emis.hs",
+		"/E/Code/coursera-nlp/nlp-1-0-counts.hs",
+		"/E/Code/coursera-nlp/coursera-nlp-1.sublime-project",
+		"/E/Code/coursera-nlp/    In a stmt of a 'do' block",
+		"/E/Code/coursera-nlp/    Not in scope",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/module.sublime-snippet",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Main.sublime-snippet",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Lambda.sublime-snippet",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Instance.sublime-snippet",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Case.sublime-snippet",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Edit History/Edit History.sublime-settings",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Edit History.sublime-settings",
+		"/E/Dropbox/Job/Invoxis/Coursera/count_ngram.hs",
+		"/E/Dropbox/Job/Invoxis/Coursera/data/gene.rare",
+		"/E/Dropbox/Job/Invoxis/Coursera/tagger_baseline.hs",
+		"/E/Dropbox/Job/Invoxis/Coursera/e_param.hs",
+		"/E/Dropbox/Job/Invoxis/Coursera/count_emis.hs",
+		"/E/Code/coursera-nlp/.gitignore",
+		"/E/Dropbox/Job/Invoxis/Coursera/input/gene.key",
+		"/E/Dropbox/Job/Invoxis/Coursera/input/gene.test",
+		"/E/Dropbox/Job/Invoxis/Coursera/input/gene.dev",
+		"/E/Code/bxl/BXL_engine/Automata.cs",
+		"/C/Users/Tann/.ssh/id_rsa.pub",
+		"/E/Dropbox/Job/Invoxis/Coursera/    In an equation for `y'",
+		"/E/Dropbox/Job/Invoxis/Coursera/    Possible fix",
+		"/E/Dropbox/Job/Invoxis/Coursera/    In the expression",
+		"/E/Dropbox/Job/Invoxis/Coursera/data/gene.emis",
+		"/E/Dropbox/Job/Invoxis/Coursera/replace_rare.hs",
+		"/E/Dropbox/Job/Invoxis/Coursera/count_emis.exe",
+		"/E/Dropbox/Job/Invoxis/Coursera/data/gene.train",
+		"/E/Dropbox/Job/Invoxis/Coursera/data/gene1.train",
+		"/E/Dropbox/Job/Invoxis/Coursera/      Actual type",
+		"/E/Dropbox/Job/Invoxis/Coursera/    Probable cause",
+		"/E/Dropbox/Job/Invoxis/Coursera/count_freqs.py",
+		"/E/Drive/Google Drive/Techno/Audit BXL/bxl-specifications.txt",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
+		"/E/Dropbox/Job/Invoxis/Coursera/count_scale.hs",
+		"/E/Dropbox/Job/Invoxis/Coursera/    Expected typ[Finished in 0.1s with exit code 1]e",
+		"/E/Dropbox/Job/Invoxis/Coursera/[Finished in 0.1s with exit code 1]    Not in scope",
+		"/E/Dropbox/Job/Invoxis/Coursera/    Expected type",
+		"/E/Dropbox/Job/Invoxis/Coursera/          the type signature for memCount ",
+		"/E/Dropbox/Job/Invoxis/Coursera/                   an equation for `uniCount'",
+		"/E/Dropbox/Job/Invoxis/Coursera/                 uniFold ",
+		"/E/Dropbox/Job/Invoxis/Coursera/    Possible cause",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Shell/Main.sublime-menu",
+		"/E/Dropbox/Job/Invoxis/Coursera/gene1.dev",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Haskell.tmLanguage",
+		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/.gitignore",
+		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/lyah-interact-wc.hs",
+		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/lyah-interact.hs",
+		"/E/Dropbox/Job/Invoxis/Coursera/gene.dev",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Shell/Default.sublime-commands",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Installed Packages/Package Control.sublime-package",
+		"/E/Dropbox/Job/Invoxis/Coursera/gene1.train",
+		"/E/Dropbox/Job/Invoxis/Coursera/eval_gene_tagger.py",
+		"/E/Dropbox/Job/Invoxis/Coursera/gene.key",
+		"/E/Dropbox/Job/Invoxis/Coursera/submit.py",
+		"/E/Dropbox/Job/Invoxis/Coursera/gene.train",
+		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/99-1-10.hs",
+		"/E/Dropbox/Job/R&D - Tech/NLP/0.Fiches de lecture"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"	O	",
+			"\"",
+			"font",
+			"trace",
+			"^is I",
+			"qParamFile",
+			"eParamFile",
+			"v",
+			"3",
+			"2",
+			"STOP",
+			"putStrLn \"Hello World\"",
+			"highestW",
+			"x3",
+			"RAREoct",
+			"\\n\\n\\n",
+			";\\n",
+			"select",
+			"layout",
+			"soft",
+			"Data.",
+			"Data",
+			"String",
+			"process",
+			"emFreq",
+			"a",
+			"N\\\\n",
+			"N\\n",
+			"N\\\\n",
+			"0\\\\n",
+			"\\\\n\\\\n\\\\n",
+			"\"?,\"",
+			"\",\"",
+			"\",\"\"",
+			"\\[a\\]",
+			"\\\\n",
+			"\", \"",
+			",\"",
+			".\"",
+			"?\"",
+			" ",
+			"biCount",
+			"unigramCount",
+			"unigram_count",
+			"\n-}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			";",
+			"Titi N\\\\n",
+			"Toto 0\\\\n",
+			"\\\\n\\\\n",
+			"\\\\n",
+			"\\\\n\\\\n",
+			"\"\\n\"",
+			"\\n\\n",
+			"[String]",
+			"\\n",
+			"\"",
+			"\", \"",
+			"triCount"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "coursera-nlp.sublime-project",
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"input/gene.dev"
+			],
+			[
+				"",
+				"data/gene.dev.p1.out"
+			],
+			[
+				"key",
+				"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}
