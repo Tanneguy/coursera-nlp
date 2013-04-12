@@ -31,9 +31,7 @@ process :: String -> String
 process t = 
         let 
                 lr = listOfTrees t
-                m =  changeMap lr
-                rs = L.map (treeRares m) lr 
-                rt = outerFold rs
+                rt = ...
         in unlines rt
 
 
@@ -50,13 +48,6 @@ listOfTrees t =
           lx1 = L.map treeText lst                           -- [String]
           lr2 = L.map toTree lx1                              -- [Tree]
         in  lr2
-
-changeMap :: [Tree] -> Map String Int
-changeMap lr  = 
-        let m = foldTreeLeaves M.empty lr     --   Map String Int 
-        in  M.filter (<5) m                               -- Map string Int 
-
-
 
 {-
   production de la structure Tree à partir d'un fichier texte

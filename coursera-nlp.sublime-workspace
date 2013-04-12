@@ -156,10 +156,10 @@
 	"buffers":
 	[
 		{
-			"file": "coursera-nlp.sublime-project",
+			"file": "/E/Code/sql/cities15000.txt",
 			"settings":
 			{
-				"buffer_size": 210,
+				"buffer_size": 3408398,
 				"line_ending": "Unix"
 			}
 		}
@@ -216,12 +216,26 @@
 	},
 	"file_history":
 	[
+		"/E/Code/sql/geonames.sql",
+		"/E/Code/coursera-nlp/Assignment-2/haskell/cnf.hs",
+		"/E/Code/coursera-nlp/Assignment-2/haskell/dummy.data",
+		"/E/Code/coursera-nlp/Assignment-2/haskell/regex.hs",
+		"/E/Code/coursera-nlp/Assignment-2/haskell/    Non type-variable argument in the constraint",
+		"/E/Code/coursera-nlp/Assignment-2/haskell/    Not in scope",
+		"/E/Download/cities15000/cities15000.txt",
+		"/E/Download/cities5000/cities5000.txt",
+		"/E/Download/AE/readme.txt",
+		"/E/Download/cities1000/cities1000.txt",
+		"/E/Download/AE/AE.txt",
+		"/E/Download/freefont-otf-20120503.tar/freefont-otf-20120503/freefont-20120503/INSTALL",
+		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/E/Public/LR/entities",
+		"/E/Code/coursera-nlp/Assignment-2/haskell/rarify.hs",
 		"/E/Code/coursera-nlp/coursera-nlp.sublime-project",
 		"/E/Code/coursera-nlp/Assignment-1/haskell/q_param.hs",
 		"/E/Code/coursera-nlp/Assignment-1/haskell/rarify.hs",
 		"/E/Code/coursera-nlp/Assignment-1/haskell/tagger_viterbi_3.hs",
 		"/E/Code/coursera-nlp/Assignment-1/data/rare2.py.ngrams",
-		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/E/Code/coursera-nlp/Assignment-1/tagger_baseline.hs",
 		"/E/Download/entities/entities.utf8",
@@ -344,6 +358,30 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Arkham",
+			"\\tArkham\\t",
+			"Paris",
+			"Paris ",
+			"\\\\\\\"",
+			"\\\"",
+			"\"",
+			"\\\"",
+			"\"",
+			" ",
+			"\\n",
+			"\\[\\\"(\\S+)\\\",\\[",
+			"\\[\\\"(\\S+)\\\"\\[",
+			"[\"NP\",[",
+			"\\[(\\\"[\\w]+\\\"),\\[",
+			"\\[(\\\"[\\w]+\\\"),(\\\"[\\w]+\\\")\\]",
+			"\\s",
+			"\".*\"",
+			"\\\".*\\\"",
+			"[",
+			"[.+,",
+			"[",
+			"\"",
+			"[",
 			"	O	",
 			"\"",
 			"font",
@@ -393,9 +431,17 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\"",
+			"\\\\\"",
+			"\\\"",
+			"",
+			"[Node \"$1\" [",
+			"[Node $1 [",
+			"[Node $1 [$2]]",
+			"",
 			";",
 			"Titi N\\\\n",
 			"Toto 0\\\\n",
@@ -424,26 +470,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "coursera-nlp.sublime-project",
+					"file": "/E/Code/sql/cities15000.txt",
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 3408398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9804,
+								10120
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4032.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -484,7 +530,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 154.0
+		"height": 235.0
 	},
 	"output.git":
 	{
