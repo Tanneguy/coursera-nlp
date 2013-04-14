@@ -2,9 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/E/Code/coursera-nlp",
-   			"folder_exclude_patterns": ["python", ".git"],
-   			"file_exclude_patterns": ["*.hi", "*.o", "*.exe", "*.md", ".gitignore","*.sublime-*"]
+			"path": "/D/Code/coursera-nlp"
 		}
 	]
 }
