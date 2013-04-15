@@ -3,8 +3,7 @@
 	[
 		{
 			"path": "/E/Code/coursera-nlp",
-//            "folder_exclude_patterns": [""],
-            "file_exclude_patterns": ["*.hi", "*.o", "*.exe"]
+            "file_exclude_patterns": ["*.hi", "*.o", "*.exe" ]
         }
 	],
 	"settings":
