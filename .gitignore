@@ -1,0 +1,17 @@
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.exe
+.virthualenv
+*.sublime-workspace
+
+*.py
+*.dat
+*.out
+
+
+
+
