@@ -1,1 +1,0 @@
-["SBARQ", ["SBARQ", ["SBARQ", ["WHNP+PRON", "What"], ["SQ+VP", ["VP", ["VP", ["VP", ["VP", ["VERB", "was"], ["NP", ["DET", "the"], ["X", "monetary"]]], ["VP", ["VERB", "value"], ["PP+ADP", "of"]]], ["NP", ["DET", "the"], ["X", "Nobel"]]], ["NP+NOUN", "Peace"]], ["VP", ["VERB", "Prize"], ["PP+PP+ADP", "in"]]]], [".", "1989"]], [".", "?"]]
