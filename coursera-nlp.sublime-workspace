@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"fold",
+				"foldl"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"ij",
+				"ij"
+			],
+			[
+				"z",
+				"z"
+			],
+			[
+				"Res",
+				"Res"
+			],
+			[
+				"tag",
+				"tagCKY"
+			],
+			[
 				"is",
 				"is"
 			],
@@ -38,10 +62,6 @@
 			[
 				"q_",
 				"q_param"
-			],
-			[
-				"res",
-				"res"
 			],
 			[
 				"let",
@@ -96,10 +116,6 @@
 				"lstPikuv"
 			],
 			[
-				"fold",
-				"foldrWithKey"
-			],
-			[
 				"ng",
 				"ngramCnt"
 			],
@@ -130,10 +146,6 @@
 			[
 				"highEmit",
 				"highEmitCounter"
-			],
-			[
-				"tag",
-				"tagFreqCounter"
 			],
 			[
 				"n",
@@ -167,54 +179,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Assignment-2/haskell/cky.hs",
-			"settings":
-			{
-				"buffer_size": 12103,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Code/haskell-sandbox/Pert.hs",
-			"settings":
-			{
-				"buffer_size": 1599,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assignment-1/haskell/tagger_viterbi_3.hs",
-			"settings":
-			{
-				"buffer_size": 4352,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assignment-2/haskell/rarify.hs",
-			"settings":
-			{
-				"buffer_size": 3171,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assignment-1/haskell/q_param.hs",
-			"settings":
-			{
-				"buffer_size": 1486,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assignment-1/haskell/e_param.hs",
-			"settings":
-			{
-				"buffer_size": 1666,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"command_palette":
@@ -268,6 +232,17 @@
 	},
 	"file_history":
 	[
+		"/D/Code/coursera-nlp/Assignment-2/haskell/cky2.hs",
+		"/D/Code/coursera-nlp/Assignment-2/haskell/rarify.hs",
+		"/D/Code/coursera-nlp/Assignment-2/haskell/cky.hs",
+		"/D/Code/haskell-sandbox/Pert.hs",
+		"/E/Games/Magic/Setup.bat",
+		"/D/Code/coursera-nlp/Assignment-1/haskell/e_param.hs",
+		"/D/Code/coursera-nlp/Assignment-1/haskell/q_param.hs",
+		"/D/Code/coursera-nlp/Assignment-1/haskell/tagger_viterbi_3.hs",
+		"/D/Code/coursera-nlp/Assignment-2/haskell/    Expected type",
+		"/D/Code/coursera-nlp/Assignment-2/haskell/    In the expression",
+		"/D/Code/coursera-nlp/Assignment-2/haskell/    Probable cause",
 		"/D/Code/coursera-nlp/Assignment-2/haskell/dyn.hs",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
@@ -384,18 +359,7 @@
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Shell/Main.sublime-menu",
 		"/E/Dropbox/Job/Invoxis/Coursera/gene1.dev",
 		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/Haskell/Haskell.tmLanguage",
-		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/.gitignore",
-		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/lyah-interact-wc.hs",
-		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/lyah-interact.hs",
-		"/E/Dropbox/Job/Invoxis/Coursera/gene.dev",
-		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Shell/Default.sublime-commands",
-		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
-		"/C/Users/Tann/AppData/Roaming/Sublime Text 2/Installed Packages/Package Control.sublime-package",
-		"/E/Dropbox/Job/Invoxis/Coursera/gene1.train",
-		"/E/Dropbox/Job/Invoxis/Coursera/eval_gene_tagger.py",
-		"/E/Dropbox/Job/Invoxis/Coursera/gene.key",
-		"/E/Dropbox/Job/Invoxis/Coursera/submit.py",
-		"/E/Dropbox/Job/Invoxis/Coursera/gene.train"
+		"/E/Dropbox/Perso/Workspace/haskell/haskell-sandbox/.gitignore"
 	],
 	"find":
 	{
@@ -413,6 +377,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"add_un",
+			"foldl",
+			"{-",
+			"foldl",
+			"cnf_right",
+			"π",
+			"parseOneWord",
+			"!!",
 			"Ctx",
 			"tri2bi",
 			"T",
@@ -524,175 +496,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Assignment-2/haskell/cky.hs",
-					"settings":
-					{
-						"buffer_size": 12103,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8395,
-								8395
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3490.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Code/haskell-sandbox/Pert.hs",
-					"settings":
-					{
-						"buffer_size": 1599,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								316,
-								455
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Assignment-1/haskell/tagger_viterbi_3.hs",
-					"settings":
-					{
-						"buffer_size": 4352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								910,
-								872
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1653.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Assignment-2/haskell/rarify.hs",
-					"settings":
-					{
-						"buffer_size": 3171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								462,
-								462
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Assignment-1/haskell/q_param.hs",
-					"settings":
-					{
-						"buffer_size": 1486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								696,
-								710
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 114.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Assignment-1/haskell/e_param.hs",
-					"settings":
-					{
-						"buffer_size": 1666,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								635,
-								635
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

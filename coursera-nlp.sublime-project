@@ -1,3 +1,4 @@
+<<<<<<< .mine
 {
 	"folders":
 	[
@@ -6,3 +7,25 @@
 		}
 	]
 }
+
+
+
+
+
+
+=======
+{
+	"folders":
+	[
+		{
+			"path": "/E/Code/coursera-nlp",
+            "file_exclude_patterns": ["*.hi", "*.o", "*.exe" ]
+        }
+	],
+	"settings":
+	{
+		"tab_size": 4,
+		"font-face": ""
+	}
+}
+>>>>>>> .theirs
